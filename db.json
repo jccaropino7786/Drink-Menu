@@ -1,0 +1,124 @@
+{
+    "drinks": [
+       {
+           "id": 0,
+           "name": "Margarita",
+           "instruction": "Rub the rim of the glass with the lime slice to make the salt stick to it. Take care to moisten only the outer rim and sprinkle the salt on it. The salt should present to the lips of the imbiber and never mix into the cocktail. Shake the other ingredients with ice, then carefully pour into the glass.",
+           "imageUrl": "https://www.thecocktaildb.com/images/media/drink/5noda61589575158.jpg",
+           "ingredient": [
+               "Tequila, 1 1/2 oz ",
+               "Triple sec, 1/2 oz",
+               "Lime Juice 1 oz",
+               "Salt"
+            ] 
+            },
+        {
+            "id": 1,
+            "name": "Sidecar",
+            "instruction": "Pour all ingredients into cocktail shaker filled with ice. Shake well and strain into cocktail glass.",
+            "imageUrl": "https://www.thecocktaildb.com/images/media/drink/x72sik1606854964.jpg",
+            "ingredient": [
+                "Cognac, 2 oz",
+                "Cointreau, 1/2 oz",
+                "Lemon Juice, 1 oz"
+            ]
+            },
+        {
+            "id": 2,
+            "name": "GG",
+            "instruction": "Pour the Galliano liqueur over ice. Fill the remainder of the glass with ginger ale and thats all there is to it. You now have a your very own GG.",
+            "imageUrl": "https://www.thecocktaildb.com/images/media/drink/vyxwut1468875960.jpg",
+            "ingredient": [
+                "Galliano, 2 1/2 shots",
+                "Ginger ale",
+                "Ice"
+            ]
+            },
+        {
+            "id": 3,
+            "name": "A1",
+            "instruction": 	"Pour all ingredients into a cocktail shaker, mix and serve over ice into a chilled glass.",
+            "imageUrl": "https://www.thecocktaildb.com/images/media/drink/2x8thr1504816928.jpg",
+            "ingredient": [
+                "Gin, 1 3/4 shot",
+                "Grand Marnier, 1 shot",
+                "Lemon Juice, 1/4 shot",
+                "Grenadine, 1/8 shot"
+            ]
+            },
+        {
+            "id": 4,
+            "name": "747",
+            "instruction": "pour kaluha, then Baileys, then Frangelico not chilled and not layered -- SERVE!!!",
+            "imageUrl": "https://www.thecocktaildb.com/images/media/drink/xxsxqy1472668106.jpg",
+            "ingredient": [
+                "Kahlua, 1/3 part",
+                "Baileys Irish Cream, 1/3 part",
+                "Frangelico, 1/3 part"
+            ]
+            },
+        {
+            "id": 5,
+            "name": "Adam",
+            "instruction": "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.",
+            "imageUrl": 	"https://www.thecocktaildb.com/images/media/drink/v0at4i1582478473.jpg",
+            "ingredient": [
+                "Dark rum, 2 oz",
+                "Lemon Juice, 1 oz",
+                "Grenadine, 1/8 shot"
+            ]
+            },
+
+        {
+            "id": 6,
+            "name": "AT&T",
+            "instruction": "Pour Vodka and Gin over ice, add Tonic and Stir.",
+            "imageUrl": "https://www.thecocktaildb.com/images/media/drink/rhhwmp1493067619.jpg",
+            "ingredient": [
+                "Absolut Vodka, 1 oz",
+                "Gin, 1 oz",
+                "Tonic Water, 4 oz"
+            ]
+            },
+
+        {
+            "id": 7,
+            "name": "Acid",
+            "instruction": "Poor in the 151 first followed by the 101 served with a Coke or Dr Pepper chaser.",
+            "imageUrl": "https://www.thecocktaildb.com/images/media/drink/xuxpxt1479209317.jpg",
+            "ingredient": [
+                "151 proof rum, 1 oz",
+                "Wild Turkey, 1 oz"
+            ]
+            },
+        {
+            "id": 8,
+            "name": "H.D.",
+            "instruction": "Mix the whisky and Baileys Cream in a beer-glass (at least 50 cl). Fill the rest of the glass with coffee.",
+            "imageUrl": "https://www.thecocktaildb.com/images/media/drink/upusyu1472667977.jpg",
+            "ingredient": [
+                "Whiskey, 4 cl",
+                "Baileys Irish Cream, 8 cl",
+                "Coffee"
+            ]
+            },
+        {
+            "id": 9,
+            "name": "Smut",
+            "instruction": "Throw it all together and serve real cold.",
+            "imageUrl": "https://www.thecocktaildb.com/images/media/drink/rx8k8e1504365812.jpg",
+            "ingredient": [
+               "Red wine, 1/3 part",
+               "Peach schnapps, 1 shot",
+               "Pepsi cola, 1/3 part",
+               "Orange Juice, 1/3 part"
+            ]
+            },
+
+
+        
+
+               
+
+         
+   }
