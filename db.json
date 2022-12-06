@@ -1,5 +1,5 @@
 {
-    "drinks": 
+    "drinks": [
        {
            "id": 0,
            "name": "Margarita",
@@ -111,5 +111,6 @@
                "Pepsi cola, 1/3 part",
                "Orange Juice, 1/3 part"
             ]
-            },
+            }
+    ]
    }
