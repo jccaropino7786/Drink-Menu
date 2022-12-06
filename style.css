@@ -29,10 +29,13 @@
 #container2{
     max-width:33%;
     background-color: lightblue;
-    text-align: center;
+    text-align: justify;
     width: 100%;
     padding: 10px;
     border: 2px solid rgb(247, 255, 1);
+}
+#li{
+  text-align: left;
 }
 #container3{
     max-width:33%;

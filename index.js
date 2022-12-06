@@ -2,7 +2,7 @@ const ulList = document.querySelector("#links > ul")
 const containerOne = document.querySelector("#container1")
 const containerTwo = document.querySelector("#container2")
 const drinkName = document.querySelector("#container2 > h1")
-const drinkDirections = document.querySelector("#container2 > h2")
+const drinkDirections = document.querySelector("#container2 > h4")
 const drinkIngredients = document.querySelector("#ingredientsContainer")
 
 function handleClick(drink){
@@ -18,16 +18,14 @@ function handleClick(drink){
     drinkIngredients.innerText = ("")
     
     
-    drink.ingredient.forEach(displayIngredient(drink.ingredient))
+   drink.ingredient.forEach(displayIngredient)
         
-    // drink.forEach(displayIngerdients(drink.ingredient)) 
 }
 
 function displayIngredient(ingredient){
     const inLi = document.createElement("li")
-        inLi.innerText = ingredient.ingredient
+        inLi.innerText = ingredient
         drinkIngredients.appendChild(inLi)
-    
 }
 
 
@@ -46,6 +44,8 @@ function displayFirstDrink(drinkObj){
     containerOne.appendChild(drinkImg)
     drinkName.innerText = drinkObj.name
     drinkDirections.innerText = drinkObj.instruction
+    drinkObj.ingredient.forEach(displayIngredient)
+
 
 }
 
