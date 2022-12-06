@@ -53,15 +53,22 @@
     border: 3em;
     border-color: black;
     text-align: center;
+    height: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+    overflow: scroll;
+    
   }
-  ul.nav > li {
+  ul.nav > img {
+    scroll-padding-inline-start: 0 ;
+    max-width: 200px;
     display: inline-block;
-    padding: 10px 20px;
+    padding: 10px 10px;
   }
-  ul.nav > li:hover{
-    background-color: lightblue;
+  ul.nav > img:hover{
+    background-color: rgb(255, 0, 0);
   }
-  ul.nav > li > a {
+  ul.nav > img > a {
     color: black;
     text-decoration: none;
   }

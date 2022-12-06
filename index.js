@@ -1,5 +1,6 @@
 const ulList = document.querySelector("#links > ul")
 
+
 function displayDrinks(drinkObj){
     const drinkImg = document.createElement("img")
     drinkImg.src = drinkObj.imageUrl
