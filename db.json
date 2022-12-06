@@ -10,7 +10,7 @@
                "Triple sec, 1/2 oz",
                "Lime Juice 1 oz",
                "Salt"
-            ] 
+            ]
             },
         {
             "id": 1,
@@ -37,7 +37,7 @@
         {
             "id": 3,
             "name": "A1",
-            "instruction": 	"Pour all ingredients into a cocktail shaker, mix and serve over ice into a chilled glass.",
+            "instruction":  "Pour all ingredients into a cocktail shaker, mix and serve over ice into a chilled glass.",
             "imageUrl": "https://www.thecocktaildb.com/images/media/drink/2x8thr1504816928.jpg",
             "ingredient": [
                 "Gin, 1 3/4 shot",
@@ -61,14 +61,13 @@
             "id": 5,
             "name": "Adam",
             "instruction": "In a shaker half-filled with ice cubes, combine all of the ingredients. Shake well. Strain into a cocktail glass.",
-            "imageUrl": 	"https://www.thecocktaildb.com/images/media/drink/v0at4i1582478473.jpg",
+            "imageUrl":     "https://www.thecocktaildb.com/images/media/drink/v0at4i1582478473.jpg",
             "ingredient": [
                 "Dark rum, 2 oz",
                 "Lemon Juice, 1 oz",
                 "Grenadine, 1/8 shot"
             ]
             },
-
         {
             "id": 6,
             "name": "AT&T",
@@ -80,7 +79,6 @@
                 "Tonic Water, 4 oz"
             ]
             },
-
         {
             "id": 7,
             "name": "Acid",
@@ -97,8 +95,8 @@
             "instruction": "Mix the whisky and Baileys Cream in a beer-glass (at least 50 cl). Fill the rest of the glass with coffee.",
             "imageUrl": "https://www.thecocktaildb.com/images/media/drink/upusyu1472667977.jpg",
             "ingredient": [
-                "Whiskey, 4 cl",
-                "Baileys Irish Cream, 8 cl",
+                "Whiskey,  1 part",
+                "Baileys Irish Cream, 2 parts",
                 "Coffee"
             ]
             },
@@ -114,11 +112,5 @@
                "Orange Juice, 1/3 part"
             ]
             }
-
-
-        
-
-               
-
-        ]      
-}
+    ]
+   }

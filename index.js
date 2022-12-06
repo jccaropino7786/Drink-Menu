@@ -1,22 +1,21 @@
-const 
+const ulList = document.querySelector("#links > ul")
 
 
-
-const displayDrink = (drinkObJ) => {
+function displayDrinks(drinkObj){
     const drinkImg = document.createElement("img")
     drinkImg.src = drinkObj.imageUrl
     drinkImg.alt = drinkObj.name
-
-
+    ulList.appendChild(drinkImg)
 }
 
 
 //fetch function
 const fetchDrinks = () => {
-    fetch("https://www.thecocktaildb.com/api/json/v1/1/search.php?s=")
-    .then(response => response.json())
-    .then(drinks => drinks.forEach(displayDrink))
-    .catch(error) => alert(error)
-}
+    fetch("http://localhost:3000/drinks")
+    // .then(res => console.log(res))}
+    .then(response =>response.json())
+    .then(drinks => drinks.forEach(displayDrinks))
+    .catch(error => alert(error))
+    }
 
 fetchDrinks()
