@@ -6,6 +6,30 @@ const drinkDirections = document.querySelector("#container2 > h4")
 const drinkIngredients = document.querySelector("#ingredientsContainer")
 const drinkForm = document.querySelector("#container3 > form")
 
+//Darkmode and partymode start here
+let togglePartyModeBtn = document.querySelector("#partyToggle")
+let toggleDarkModeBtn = document.querySelector("#darkToggle")
+
+
+togglePartyModeBtn.addEventListener('click', partyMode)
+toggleDarkModeBtn.addEventListener('click', darkMode)
+
+function partyMode() {
+    let togglePartyBtn = document.body;
+    togglePartyBtn.classList.toggle("party-mode");
+    let colors = ['red','yellow','blue','green','orange','purple','rainbow'];
+
+setInterval(() => {
+    document.body.style.setProperty('--bgColor', colors[Math.floor(Math.random() * 5)]);
+}, 1000);
+}
+
+function darkMode() {
+    let toggleDarkBtn = document.body;
+    toggleDarkBtn.classList.toggle("dark-mode");
+  }
+
+//DarkModePartyMode stops
 
 function handleClick(drink){
     containerOne.innerHTML = ("")
@@ -96,8 +120,3 @@ const fetchDrinks = () => {
 fetchDrinks()
 drinkForm.addEventListener('submit', handleSubmit)
 
-let darkToggle = document.querySelector('#darkToggle');
-
-darkToggle.addEventListener('change', ()=> {
-  document.body.classList.toggle('dark');
-});
