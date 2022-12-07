@@ -20,8 +20,8 @@ function partyMode() {
     let colors = ['red','yellow','blue','green','orange','purple','rainbow'];
 
 setInterval(() => {
-    document.body.style.setProperty('--bgColor', colors[Math.floor(Math.random() * 5)]);
-}, 1000);
+    document.body.style.setProperty('--bgColor', colors[Math.floor(Math.random() * 5)]);    
+    }, 1000);
 }
 
 function darkMode() {
