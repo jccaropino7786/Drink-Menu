@@ -40,7 +40,7 @@ const handleSubmit = (e) => {
         ingredient:[drinkIngOne,drinkIngTwo,drinkIngThree,drinkIngFour],
       }
       e.target.reset()
-    debugger
+    // debugger
         containerOne.innerHTML =("")
         drinkIngredients.innerHTML = ("")
         displayFirstDrink(newDrink)
