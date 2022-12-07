@@ -115,10 +115,9 @@
   }
 /* Dark Mode */
   body {
-    padding: 25px;
     background-color: whitesmoke;
     color: #333;
-    font-size: 25px;
+
   }
   
   .dark-mode {
