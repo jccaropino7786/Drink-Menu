@@ -89,7 +89,8 @@ function displayIngredient(ingredient){
 function displayDrinks(drinkObj){
     const drinkImg = document.createElement("img")
     drinkImg.src = drinkObj.imageUrl
-    drinkImg.alt = drinkObj.name
+    drinkImg.alt = drinkObj.name 
+    drinkImg.addEventListener("click", () => handleClick(drinkObj))
     ulList.appendChild(drinkImg)
     drinkImg.addEventListener('click', (e) => handleClick(drinkObj, e))
 }
@@ -104,6 +105,8 @@ function displayFirstDrink(drinkObj){
     drinkObj.ingredient.forEach(displayIngredient)
 
 }
+
+
 
 //fetch function
 const fetchDrinks = () => {
