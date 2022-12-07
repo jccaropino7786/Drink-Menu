@@ -1,7 +1,9 @@
 
 
 #header {
-  float: inline-start;
+    float: inline-start;
+    font-family: broadway, fantasy ;
+    font-size: larger;
     background-color: rgba(245, 245, 245, 0);
     border: 3px black solid;
     border-bottom: 3px;
@@ -63,9 +65,9 @@
 
   #links {
     color: tan;
-
+    font-family: broadway, fantasy ;
+    font-size: larger;
     background-color: rgb(0, 0, 0);
-    
     text-align: center;
   
   }
