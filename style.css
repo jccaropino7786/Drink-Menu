@@ -12,6 +12,11 @@
 #mainContent {
   background-color: black;
     display: flex;
+    border-color: black;
+    border-left: 25em;
+    border-right: 25em;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 #container1{
