@@ -6,6 +6,7 @@ const drinkDirections = document.querySelector("#container2 > h4")
 const drinkIngredients = document.querySelector("#ingredientsContainer")
 const drinkForm = document.querySelector("#container3 > form")
 
+
 function handleClick(drink){
     containerOne.innerHTML = ("")
     const drinkImg = document.createElement("img")
@@ -39,19 +40,24 @@ const handleSubmit = (e) => {
         ingredient:[drinkIngOne,drinkIngTwo,drinkIngThree,drinkIngFour],
       }
     //   e.target.reset()
+    debugger
         containerOne.innerHTML =("")
+        drinkIngredients.innerHTML = ("")
         displayFirstDrink(newDrink)
         displayDrinks(newDrink)
-        drinkIngredients.innerHTML = ("")
-        newDrink.ingredient.forEach(displayIngredient)
+        // newDrink.ingredient.forEach(displayIngredient)
  }
 
 
 
 function displayIngredient(ingredient){
+    // debugger
     const inLi = document.createElement("li")
         inLi.innerText = ingredient
         drinkIngredients.appendChild(inLi)
+            if(inLi.innerText === ("")){
+                drinkIngredients.removeChild(inLi)
+            }
 }
 
 
@@ -71,7 +77,6 @@ function displayFirstDrink(drinkObj){
     drinkName.innerText = drinkObj.name
     drinkDirections.innerText = drinkObj.instruction
     drinkObj.ingredient.forEach(displayIngredient)
-
 
 }
 
