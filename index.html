@@ -2,13 +2,21 @@
 <html lang="en">
   
     <head>
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style.css">
         <title>Drink Maker</title>
         
     </head>
     <body>
         <div id = "header">
         <h1>Drink Maker</h1>
+        <!-- Dark Toggle Button -->
+        <button id="darkToggle" value="true">Dark Mode</button>
+        <button id="partyToggle" value="true">Party Mode</button> 
+        <p id="warning">***WARNING DO NOT CLICK PARTY MODE IF PHOTO SENSITIVE***
+        </p>
+        <form><button id="submitToggle" value="true">PLEASE MAKE IT STOP</button></form>
+        <!-- Dark Toggle End -->
+        
         </div>
 <!-- surapat code starts -->
         <button id="darkToggle" value="true">Dark Mode</button>
@@ -17,31 +25,51 @@
 <!-- surapat code stops -->
         <div id = "mainContent">
             
-                <div class="column" id = "container1">"place holder text1"
-
+                <div class="column" id = "container1">
+            
                 </div>
 
-                <div class="column" id = "container2">"placeholder text2"
+                <div class="column" id = "container2">
+                    <h1>Drink Name</h1>
+                    
+                    <ul id = "ingredientsContainer">
+                    </ul>
+                    <h4>Drink Directions</h4>
 
                 </div>
                 
                 <div class="column" id = "container3">"Make Your Own"
                     <form>
-                        <input type="placeholder">
-                        <button>button</button>
+                        Drink Name
+                        <input id="drinkTitle" class="input" placeholder="Drink Name ...">
+                        Image_URL
+                        <input id="imageURL" class="input"  placeholder="Image_URL ...">
+                        Ingredient1
+                        <input id="ingredient1" class="input"  placeholder="Ingredient ...">
+                        Ingredient2
+                        <input id="ingredient2" class="input"  placeholder="Ingredient ...">
+                        Ingredient3
+                        <input id="ingredient3" class="input"  placeholder="Ingredient ...">
+                        Ingredient4
+                        <input id="ingredient4" class="input"  placeholder="Ingredient ...">
+                        How do you make it?
+                        <textarea id="instruction" class="input"  placeholder="How do you make it?..."></textarea>
+                        <button>submit</button>
                     </form>
                 </div>
 
                 </div>
         
         <div id = "links">
+            
+            <h1 id="drinkLibraryHeader">Drink Library</h1>
             <ul class = "nav">
             
             </ul>
         </div>
 
         <div id ="footer">
-           <h3>World's End Bar and Casino</h3>
+           <h3>World's End Bar</h3>
         </div>
         <script src="index.js"></script>
     </body>
