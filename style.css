@@ -1,9 +1,26 @@
+/* surapat code start */
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+/* surapat code stop */
+
 
 
 #header {
+
     float: inline-start;
     font-family: broadway, fantasy ;
     font-size: larger;
+
+
     background-color: rgba(245, 245, 245, 0);
     border: 3px black solid;
     border-bottom: 3px;
@@ -107,6 +124,7 @@
     text-decoration: none;
   }
 
+
   .input{
     width: 100%;
   }
@@ -130,6 +148,9 @@
   }
 
   /* Party Mode */
+
+/* surapat code start */
+
   :root {
     --bgColor: var(--bgColor);
 }
@@ -137,4 +158,10 @@
 body {
     background-color: var(--bgColor);
     animation: colorChange 0.5s alternate infinite;
+
 }
+
+}
+/* surapat code stop */
+
+
