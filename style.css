@@ -10,6 +10,10 @@
     text-align: center;
     padding-bottom: 5px;
   }
+
+  #warning{
+    font-family: 'Times New Roman', Times, serif;
+  }
   
 #mainContent {
   background-color: black;
