@@ -103,27 +103,6 @@
     text-decoration: none;
   }
 
-  
-   /* Dark toggle Button */
-  .darkToggle {
-    appearance: none;
-    width: 30px;
-    height: 30px;
-    background: white;
-    border-radius: 5px;
-    border: 2px solid #555;
-  }
-  
-  .darkToggle:checked {
-    background: #333;
-  }
-  
-  .dark {
-    color: white;
-    background: #444;
-  }
-  /* DarkToggle End */
-
   .input{
     width: 100%;
   }
@@ -134,3 +113,25 @@
     overflow-wrap: normal;
     word-wrap: break-word;
   }
+/* Dark Mode */
+  body {
+    padding: 25px;
+    background-color: whitesmoke;
+    color: #333;
+    font-size: 25px;
+  }
+  
+  .dark-mode {
+    background-color: #333;
+    color: whitesmoke;
+  }
+
+  /* Party Mode */
+  :root {
+    --bgColor: var(--bgColor);
+}
+
+body {
+    background-color: var(--bgColor);
+    animation: colorChange 0.5s alternate infinite;
+}
