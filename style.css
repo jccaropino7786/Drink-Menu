@@ -1,6 +1,20 @@
+/* surapat code start */
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+/* surapat code stop */
+
 
 #header {
-    background-color: whitesmoke;
+    background-color: rgba(245, 245, 245, 0);
     border: 3px black solid;
     text-align: center;
   }
@@ -72,3 +86,15 @@
     color: black;
     text-decoration: none;
   }
+
+/* surapat code start */
+  :root {
+    --bgColor: var(--bgColor);
+}
+
+body {
+    background-color: var(--bgColor);
+    animation: colorChange 0.5s alternate infinite;
+}
+/* surapat code stop */
+
