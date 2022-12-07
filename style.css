@@ -1,15 +1,18 @@
 
 
 #header {
+  float: inline-start;
     background-color: rgba(245, 245, 245, 0);
     border: 3px black solid;
+    border-bottom: 3px;
     text-align: center;
+    padding-bottom: 5px;
   }
   
 #mainContent {
   background-color: black;
     display: flex;
-    border-color: black;
+    /* border-color: black; */
     border-left: 25em;
     border-right: 25em;
     padding-left: 5px;
@@ -99,7 +102,7 @@
   }
 
   
-  
+   /* Dark toggle Button */
   .darkToggle {
     appearance: none;
     width: 30px;
@@ -117,6 +120,7 @@
     color: white;
     background: #444;
   }
+  /* DarkToggle End */
 
   .input{
     width: 100%;
