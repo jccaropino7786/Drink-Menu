@@ -4,6 +4,7 @@ const containerTwo = document.querySelector("#container2")
 const drinkName = document.querySelector("#container2 > h1")
 const drinkDirections = document.querySelector("#container2 > h4")
 const drinkIngredients = document.querySelector("#ingredientsContainer")
+const drinkForm = document.querySelector("#container3 > form")
 
 function handleClick(drink){
     containerOne.innerHTML = ("")
@@ -21,6 +22,8 @@ function handleClick(drink){
    drink.ingredient.forEach(displayIngredient)
         
 }
+
+
 
 function displayIngredient(ingredient){
     const inLi = document.createElement("li")
