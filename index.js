@@ -22,6 +22,29 @@ function handleClick(drink){
    drink.ingredient.forEach(displayIngredient)
         
 }
+const handleSubmit = (e) => {
+    e.preventDefault()
+    // debugger
+    const drinkName = e.target.drinkTitle.value
+    const drinkImg = e.target.imageURL.value
+    const drinkIngOne = e.target.ingredient1.value
+    const drinkIngTwo = e.target.ingredient2.value
+    const drinkIngThree = e.target.ingredient3.value
+    const drinkIngFour = e.target.ingredient4.value
+    const drinkInstruction = e.target.instruction.value
+      const newDrink = {
+        name:drinkName,
+        instruction:drinkInstruction,
+        imageUrl:drinkImg,
+        ingredient:[drinkIngOne,drinkIngTwo,drinkIngThree,drinkIngFour],
+      }
+    //   e.target.reset()
+        containerOne.innerHTML =("")
+        displayFirstDrink(newDrink)
+        displayDrinks(newDrink)
+        drinkIngredients.innerHTML = ("")
+        newDrink.ingredient.forEach(displayIngredient)
+ }
 
 
 
@@ -66,6 +89,7 @@ const fetchDrinks = () => {
     }
 
 fetchDrinks()
+drinkForm.addEventListener('submit', handleSubmit)
 
 let darkToggle = document.querySelector('#darkToggle');
 
