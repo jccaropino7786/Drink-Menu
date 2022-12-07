@@ -128,3 +128,11 @@ ul.nav > img > a {
   overflow-wrap: normal;
   word-wrap: break-word;
 }
+
+:root {
+  --bgColor: var(--bgColor);
+}
+body {
+  background-color: var(--bgColor);
+  animation: colorChange 0.5s alternate infinite;
+}
