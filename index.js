@@ -10,10 +10,8 @@ const drinkForm = document.querySelector("#container3 > form")
 let togglePartyModeBtn = document.querySelector("#partyToggle")
 let toggleDarkModeBtn = document.querySelector("#darkToggle")
 
-
 // togglePartyModeBtn.addEventListener('change', partyMode)
 toggleDarkModeBtn.addEventListener('click', darkMode)
-
 // function partyMode() {
 //     let togglePartyBtn = document.body;
 //     togglePartyBtn.classList.toggle("party-mode");
@@ -27,7 +25,7 @@ toggleDarkModeBtn.addEventListener('click', darkMode)
 function darkMode() {
     let toggleDarkBtn = document.body;
     toggleDarkBtn.classList.toggle("dark-mode");
-  }
+}
 
 //DarkModePartyMode stops
 
@@ -37,15 +35,10 @@ function handleClick(drink){
     drinkImg.src = drink.imageUrl
     drinkImg.alt = drink.name
     containerOne.appendChild(drinkImg)
-
-    
     drinkName.innerText = drink.name
     drinkDirections.innerText = drink.instruction
     drinkIngredients.innerText = ("")
-    
-    
-   drink.ingredient.forEach(displayIngredient)
-        
+    drink.ingredient.forEach(displayIngredient)     
 }
 const handleSubmit = (e) => {
     e.preventDefault()
@@ -70,11 +63,9 @@ const handleSubmit = (e) => {
         displayFirstDrink(newDrink)
         displayDrinks(newDrink)
         // newDrink.ingredient.forEach(displayIngredient)
- }
+}
 
-
-
-function displayIngredient(ingredient){
+ function displayIngredient(ingredient){
     // debugger
     const inLi = document.createElement("li")
         inLi.innerText = ingredient
@@ -84,15 +75,13 @@ function displayIngredient(ingredient){
             }
 }
 
-
-
-function displayDrinks(drinkObj){
+function displayDrinks(x){
     const drinkImg = document.createElement("img")
-    drinkImg.src = drinkObj.imageUrl
-    drinkImg.alt = drinkObj.name 
-    drinkImg.addEventListener("click", () => handleClick(drinkObj))
+    drinkImg.src = x.imageUrl
+    drinkImg.alt = x.name 
+    drinkImg.addEventListener("click", () => handleClick(x))
     ulList.appendChild(drinkImg)
-    drinkImg.addEventListener('click', (e) => handleClick(drinkObj, e))
+    drinkImg.addEventListener('click', (e) => handleClick(x, e))
 }
 
 function displayFirstDrink(drinkObj){
@@ -105,9 +94,6 @@ function displayFirstDrink(drinkObj){
     drinkObj.ingredient.forEach(displayIngredient)
 
 }
-
-
-
 //fetch function
 const fetchDrinks = () => {
     fetch("http://localhost:3000/drinks")
@@ -119,7 +105,7 @@ const fetchDrinks = () => {
     })
     // .then(drinks => drinks.forEach(displayDrinks))
     // .catch(error => alert(error))
-    }
+}
 
 fetchDrinks()
 drinkForm.addEventListener('submit', handleSubmit)

@@ -1,5 +1,8 @@
 /* surapat code start */
 
+  /* width: 100vh; */
+
+
 
 .dark-mode {
   background-color: #666;
@@ -9,7 +12,8 @@
 
 
 #header {
-  float: inline-start;
+  max-height: 10%;
+  
   font-family: broadway, fantasy ;
   font-size: larger;
   background-color: rgba(245, 245, 245, 0);
@@ -20,8 +24,10 @@
 }
 
 #mainContent {
-background-color: black;
+  max-height: 50%;
+  background-color: black;
   display: flex;
+  
   /* border-color: black; */
   border-left: 25em;
   border-right: 25em;
@@ -75,6 +81,7 @@ text-align: left;
 }
 
 #links {
+  max-height: 30%;
   color: tan;
   font-family: broadway, fantasy ;
   font-size: larger;
@@ -84,6 +91,7 @@ text-align: left;
 }
 
 #footer {
+  max-height: 10%;
   background-color: rgba(245, 245, 245, 0);
   border: 3px black solid;
   text-align: center;
