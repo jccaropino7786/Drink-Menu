@@ -11,18 +11,18 @@ let togglePartyModeBtn = document.querySelector("#partyToggle")
 let toggleDarkModeBtn = document.querySelector("#darkToggle")
 
 
-togglePartyModeBtn.addEventListener('change', partyMode)
+// togglePartyModeBtn.addEventListener('change', partyMode)
 toggleDarkModeBtn.addEventListener('click', darkMode)
 
-function partyMode() {
-    let togglePartyBtn = document.body;
-    togglePartyBtn.classList.toggle("party-mode");
-    let colors = ['red','yellow','blue','green','orange','purple','rainbow'];
+// function partyMode() {
+//     let togglePartyBtn = document.body;
+//     togglePartyBtn.classList.toggle("party-mode");
+//     let colors = ['red','yellow','blue','green','orange','purple','rainbow'];
 
-setInterval(() => {
-    document.body.style.setProperty('--bgColor', colors[Math.floor(Math.random() * 5)]);    
-    }, 1000);
-}
+// setInterval(() => {
+//     document.body.style.setProperty('--bgColor', colors[Math.floor(Math.random() * 5)]);    
+//     }, 1000);
+// }
 
 function darkMode() {
     let toggleDarkBtn = document.body;

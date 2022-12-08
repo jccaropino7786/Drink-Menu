@@ -125,13 +125,15 @@ ul.nav > img > a {
   word-wrap: break-word;
 }
 
-:root {
+/* #body {
   --bgColor: var(--bgColor);
 }
 #partyMode{
   background-color: whitesmoke;
+  animation:none
 }
 #partyMode:checked {
   background-color: var(--bgColor);
-  animation: colorChange 0.5s alternate infinite;
-}
+  animation: colorChange 0.5s alternate;
+} */
+
