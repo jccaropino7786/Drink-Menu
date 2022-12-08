@@ -137,3 +137,24 @@ ul.nav > img > a {
   animation: colorChange 0.5s alternate;
 } */
 
+
+
+
+
+.darkishToggle {
+  appearance: none;
+  width: 30px;
+  height: 30px;
+  background: white;
+  border-radius: 5px;
+  border: 2px solid #555;
+}
+
+.darkishToggle:checked {
+  background: #333;
+}
+
+.dark {
+  color: white;
+  background: #444;
+}

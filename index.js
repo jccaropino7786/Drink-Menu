@@ -124,3 +124,9 @@ const fetchDrinks = () => {
 fetchDrinks()
 drinkForm.addEventListener('submit', handleSubmit)
 
+
+let darkishToggle = document.querySelector('#darkishToggle');
+
+darkishToggle.addEventListener('change', ()=> {
+  document.body.classList.toggle('dark');
+})
