@@ -1,9 +1,5 @@
 /* surapat code start */
-body {
-  padding: 25px;
-  background-color: white;
-  color: #333;
-}
+
 
 .dark-mode {
   background-color: #666;
@@ -131,6 +127,9 @@ ul.nav > img > a {
 
 :root {
   --bgColor: var(--bgColor);
+}
+#partyMode{
+  background-color: whitesmoke;
 }
 #partyMode:checked {
   background-color: var(--bgColor);
