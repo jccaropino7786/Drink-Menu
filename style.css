@@ -158,8 +158,10 @@ ul.nav > img > a {
   border: 2px solid #555;
 }
 
-.darkish Toggle:checked {
-  background: #333;
+.darkishToggle:checked {
+  background: black;
+  
+  
 }
 
 .dark {
