@@ -132,7 +132,7 @@ ul.nav > img > a {
 :root {
   --bgColor: var(--bgColor);
 }
-body {
+#partyMode:checked {
   background-color: var(--bgColor);
   animation: colorChange 0.5s alternate infinite;
 }

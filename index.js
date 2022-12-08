@@ -11,7 +11,7 @@ let togglePartyModeBtn = document.querySelector("#partyToggle")
 let toggleDarkModeBtn = document.querySelector("#darkToggle")
 
 
-togglePartyModeBtn.addEventListener('click', partyMode)
+togglePartyModeBtn.addEventListener('change', partyMode)
 toggleDarkModeBtn.addEventListener('click', darkMode)
 
 function partyMode() {
