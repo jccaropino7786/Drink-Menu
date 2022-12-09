@@ -116,3 +116,10 @@ let darkishToggle = document.querySelector('#darkishToggle');
 darkishToggle.addEventListener('change', ()=> {
   document.body.classList.toggle('dark');
 })
+
+
+
+togglePartyModeBtn.addEventListener('click', partyMode)
+function partyMode() {
+    document.body.classList.toggle("party-mode");
+}

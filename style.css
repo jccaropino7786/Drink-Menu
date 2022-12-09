@@ -168,3 +168,19 @@ ul.nav > img > a {
   color: white;
   background: #444;
 }
+
+.party-mode {
+  background-color: whitesmoke;
+  animation-name: partyMode;
+  animation: partyMode 3s;
+  animation-iteration-count: infinite;
+  }
+
+  @keyframes partyMode {
+    0% {background-color: red;}
+    20% {background-color: pink;}
+    40% {background-color: yellow;}
+    60% {background-color: blue;}
+    80% {background-color: purple;}
+    100% {background-color: green;}
+    }
